@@ -1,0 +1,26 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/62862aa7e4b1e19ff0e4a616
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"ali alishah",
+    "subscribedToChannel": "Tehran streets"
+}
+
+###
+DELETE  http://localhost:3000/subscribers/62862aa7e4b1e19ff0e4a616
+
+###
+PATCH http://localhost:3000/subscribers/62862aa7e4b1e19ff0e4a616
+Content-Type: application/json
+
+{
+    "name":"soha omidi"
+  
+}
